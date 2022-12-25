@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
 
 body{
     font-family: Gloria Hallelujah, sans-serif; 
@@ -23,6 +18,8 @@ h1,h2 {
     font-size: 200%;
     padding-left: 70px;
 }
+
+/*nav settings*/
 
 #nav-bar{
     font-size: 100%;
@@ -54,15 +51,6 @@ h1,h2 {
     border-bottom: 1px;
 }
 
-#main-image{
-    height: 600px;
-    width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
-}
-
-
-
-
 #nav-bar, #header-logo {
     line-height: 70px;
 }
@@ -80,4 +68,11 @@ h1,h2 {
 
 #nav-bar a:hover {
     color: lightsalmon;
+}
+
+/*about section*/
+
+#about-section, p {
+    font-size: small;
+    padding-top: 60px;
 }
