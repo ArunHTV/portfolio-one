@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body{
-    font-family: Arial;
+    font-family: Gloria Hallelujah, sans-serif; 
+    font-weight: 400;
 }
