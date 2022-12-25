@@ -21,6 +21,7 @@ h1,h2 {
 #header-logo{
     float: left;
     font-size: 200%;
+    padding-left: 70px;
 }
 
 #nav-bar{
@@ -28,6 +29,40 @@ h1,h2 {
     letter-spacing: 5px;
 
 }
+
+#nav-bar, #header-logo {
+    line-height: 70px;
+}
+
+#nav-bar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px ;
+    padding-right: 70px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-bar a:hover {
+    color: lightsalmon;
+}
+
+.active {
+    border-bottom: 1px;
+}
+
+#main-image{
+    height: 600px;
+    width: 100%;
+    padding-top: 60px;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+}
+
+
+
 
 #nav-bar, #header-logo {
     line-height: 70px;
