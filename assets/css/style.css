@@ -16,7 +16,7 @@ h1,h2 {
 #header-logo{
     float: left;
     font-size: 200%;
-    padding-left: 70px;
+    padding-left: 90px;
 }
 
 /*nav settings*/
@@ -74,5 +74,18 @@ h1,h2 {
 
 #about-section, p {
     font-size: small;
+    padding-top: 60px;
+    text-align: left;
+    display: block;
+    max-width:60%;
+    padding-left: 60px;
+}
+
+#main-image{
+    float: right;
+    position: absolute;
+    padding-left: 500px;
+    max-width: min-content;
+    height: 700px;
     padding-top: 60px;
 }
