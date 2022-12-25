@@ -9,4 +9,41 @@
 body{
     font-family: Gloria Hallelujah, sans-serif; 
     font-weight: 400;
+    color: darkred;
+}
+
+h1,h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: firebrick;
+}
+
+#header-logo{
+    float: left;
+    font-size: 200%;
+}
+
+#nav-bar{
+    font-size: 100%;
+    letter-spacing: 5px;
+
+}
+
+#nav-bar, #header-logo {
+    line-height: 70px;
+}
+
+#nav-bar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px ;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-bar a:hover {
+    color: lightsalmon;
 }
