@@ -78,7 +78,7 @@ h1,h2 {
     text-align: left;
     display: block;
     max-width:60%;
-    padding-left: 60px;
+    padding-left: 100px;
 }
 
 #main-image{
@@ -117,7 +117,7 @@ footer {
     font-size:160% ;
     margin: 1%;
     padding:5%;
-    color: #3a3a3a;
+    color: firebrick;
    }
 
    /*video embed*/
