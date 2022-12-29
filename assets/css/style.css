@@ -72,23 +72,31 @@ h1,h2 {
 
 /*about section*/
 
-#about-section, p {
-    font-size: small;
-    padding-top: 60px;
-    text-align: left;
-    display: block;
-    max-width:60%;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
     padding-left: 100px;
-}
+   }
 
-#main-image{
-    float: right;
-    position: absolute;
-    padding-left: 500px;
-    max-width: min-content;
-    height: 700px;
-    padding-top: 60px;
-}
+
+   img{
+    max-width: 90%;
+   }
+
+   .container > div {
+    flex-basis: 40%;
+    
+   }
+
+   h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 400px;
+   }
+
+
 
 /* home page*/
 
@@ -99,6 +107,10 @@ h1,h2 {
         width: 50%;
       }
 
+
+#homepage-text{
+    text-align: center;
+}
 /* footer */
 
 footer {
@@ -122,11 +134,10 @@ footer {
 
    /*video embed*/
 
-   .video{
-    position:relative;
-    margin: auto;
-    top: 50%;
-    left: 50%;  }
+   .video {
+    margin-left: 55vw;
+    transform: translate(-50%);
+  }
 
     /*Discography*/
 
