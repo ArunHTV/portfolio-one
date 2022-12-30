@@ -100,13 +100,6 @@ h1,h2 {
 
 /* home page*/
 
-#hero-image{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-      }
-
 
 #homepage-text{
     text-align: center;
@@ -315,6 +308,35 @@ footer {
     padding-top: 20px;
     padding-right: 400px;
    }
+
+   @media screen and (max-width: 1200px) {
+
+
+   
+   
+
+   }
+
+   @media screen and (max-width:950px) {
+
+    #nav-bar {
+        align-items: center;
+        margin-left: 30px;
+        margin-bottom:20px;
+        line-height: 25px;
+    }
+    
+    #homepage-text h2 {
+        align-items: center; 
+        background-color: red;
+        padding-left: 30px;
+    }
+
+     .photos{
+        column-count: 2;
+     }
+    }
+
 
    
     
