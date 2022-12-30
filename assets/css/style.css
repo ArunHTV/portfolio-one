@@ -184,6 +184,132 @@ footer {
     padding-right: 400px;
    }
 
+   /* Mothers Milk Page */
+
+   .mmcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 100px;
+   }
+
+   img{
+    max-width: 90%;
+   }
+
+   .container > div {
+    flex-basis: 40%;
+    
+   }
+
+   h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 400px;
+   }
+
+   /* bssm page */
+
+   
+   .bssmcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 50px;
+   }
+
+   img{
+    max-width: 90%;
+   }
+
+   .container > div {
+    flex-basis: 40%;
+    
+   }
+
+   h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 400px;
+   }
+
+   /* cali page */
+
+   .calicontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 50px;
+   }
+
+   img{
+    max-width: 90%;
+   }
+
+   .container > div {
+    flex-basis: 40%;
+    
+   }
+
+   h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 400px;
+   }
+
+ /* by the way page */
+
+ .btwcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 50px;
+   }
+
+   img{
+    max-width: 90%;
+   }
+
+   .container > div {
+    flex-basis: 40%;
+    
+   }
+
+   h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 400px;
+   }
+
+   /* stadium arcadium page */
+
+   .sacontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 50px;
+   }
+
+   img{
+    max-width: 90%;
+   }
+
+   .container > div {
+    flex-basis: 40%;
+    
+   }
+
+   h2 , h3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 400px;
+   }
+
    
     
   
