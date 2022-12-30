@@ -110,6 +110,12 @@ h1,h2 {
 
 #homepage-text{
     text-align: center;
+    
+}
+
+h3 { 
+    text-align: center;
+    padding-left:250px
 }
 /* footer */
 
