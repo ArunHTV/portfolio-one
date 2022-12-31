@@ -43,7 +43,7 @@ Users of this site will able to discover facts about his life, explore his disco
 
 -	The “Gear” section of the website will feature equipment John has used on certain albums/performances, as well as the sources of the information for full transparency
 
-![Gear](https://github.com/ArunHTV/portfolio-one/blob/72f7110b243ad1ae58c1d996032966b96af71596/markdown-images/album.png?raw=true)
+![Gear](https://github.com/ArunHTV/portfolio-one/blob/main/markdown-images/gear.png?raw=true)
 
 
 ## Bugs
