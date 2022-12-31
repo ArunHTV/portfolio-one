@@ -50,7 +50,27 @@ Users of this site will able to discover facts about his life, explore his disco
 
 - At the moment, I'm having a bit of an issue using media queries to make the site look better in mobile so I'm currently looking into a fix for this
 
+## Testing
+
+- Each time a new HTML page has been made, I have used the HTTP Server on GitPod to make sure the page leads you to the right place. For example, I had originally had an issue opening the Gear page from the Discography page. When I searched the HTML for causes, it seems that there was a typo in the href for the gear page in the Discography html. When this was corrected, it took me to the correct page.
+
+- The site was also tested for smaller screens. However, I was having an issue when trying to center my headings and text for a mobile page. While I had been testing on a browser window a lot so I knew how each internal and external link would work, mobile testing was left a little bit late. I will revise into media queries for the next submission and potential resubmission of this project.
+
 ## Validator Testing
 
-- Each page has been put through W3 Validator and all edits have been made
+- Each  individual page has been put through W3 Validator and all edits have been made to the HTML so there are no real issues other than the discography page where it has asked for a title for one of the sections
+- Currently no CSS errors. Only one was flagged in the text area whhen using the W3C CSS Validator and this was quickly amended
+
+## Deployment
+
+- This site was deployed by going to the repository, clicking it's settings, finding the pages tab and then hit Deploy from branch and selected my root folder
+
+- The live site can be found at https://arunhtv.github.io/portfolio-one/index.html
+
+## Credits/Content Credits
+
+- All album art found on  https://redhotchilipeppers.com
+- Love Running Site used as reference for navigation bar and social media links
+- Lessons found on codeinstitute.net used for help with setting out content
+- All other references have been included in the pages they helped create (e.g the pedal board)
 
