@@ -118,11 +118,7 @@ h2 {
   .text-container {
     padding-right: 20px;
   }
-
-  .text-container p:nth-of-type(2) {
-    padding-right: 20px;
-  }
-
+  
   .album-container p:first-child {
     text-align: center;
   }
