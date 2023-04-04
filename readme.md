@@ -1,4 +1,4 @@
-# Frusciante Facts
+# Frusciante Facts V1
 
 Frusciante facts is a page made to create a historical database for American musician John Frusciante, covering facts about his career, discography and musical equipment.
 Users of this site will able to discover facts about his life, explore his discography and find out what musical gear (guitars, synthesizers etc) has been used on famous tracks and performances. This last section will allow the user to recreate the sounds of songs/performances that they like. I thought it also has potential for affiliate links as pages of gear or music can have direct links on them to find that specific piece of gear or song/album.
@@ -74,3 +74,8 @@ Users of this site will able to discover facts about his life, explore his disco
 - Lessons found on codeinstitute.net used for help with setting out content
 - All other references have been included in the pages they helped create (e.g the pedal board)
 
+# Frusciante Facts V2
+
+The following is an update to my initial markdown, chronicling how the site has been developed since it was first deployed. The most major change is that the site is now fully responsive, which I will discuss, amongst other improvements
+
+![responsive](https://github.com/ArunHTV/portfolio-one/blob/main/markdown-images/responsivescreenshot.png?raw=true)
