@@ -61,13 +61,13 @@ header {
   } 
 
   #header-logo {
-      text-align: center; /* centers the text */
-      font-size: 3rem; /* sets the font size for desktop screens */
+      text-align: center; 
+      font-size: 3rem;
   }
   
-  @media screen and (max-width: 768px) { /* applies styles for mobile screens up to 768px wide */
+  @media screen and (max-width: 768px) { 
       #header-logo {
-          font-size: 2rem; /* reduces font size for mobile screens */
+          font-size: 28px;
       }
   }
 /*nav settings*/
@@ -80,7 +80,7 @@ header {
   }
   
   #nav-bar li {
-    margin-right: 80px;
+    margin-right: 60px;
   }
   
   #nav-bar li:last-child {
