@@ -79,6 +79,18 @@ h2 {
     text-align: justify;
   }
 
+  @media (max-width: 767px) {
+    #main-image {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  
+    .about-text {
+      padding: 0 10px;
+      font-size: 85%;
+    }
+  }
 
 /* footer */
 
@@ -101,12 +113,6 @@ footer {
     color: firebrick;
    }
 
-   /*video embed*/
-
-   .video {
-    margin-left: 55vw;
-    transform: translate(-50%);
-  }
 
  
 
