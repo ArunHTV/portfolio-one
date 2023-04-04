@@ -80,7 +80,7 @@ header {
   }
   
   #nav-bar li {
-    margin-right: 20px;
+    margin-right: 80px;
   }
   
   #nav-bar li:last-child {
@@ -90,6 +90,7 @@ header {
 #nav-bar a {
     text-decoration: none;
     color: inherit;
+    font-size: 22px;
 }
 
 #nav-bar a:hover {
@@ -165,6 +166,7 @@ h2 {
 
   ol {
     list-style-position: inside;
+    font-size: 18px;
   }
 
   @media only screen and (max-width: 600px) {
@@ -252,19 +254,23 @@ h2 {
 /* footer */
 
 footer {
-    height: 150px;
-   }
+  display: flex;
+  justify-content: center;
+}
 
-   .social-networks {
-    text-align: center;
-   }
+.social-networks {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
 
-   .social-networks > li {
-    display:inline ;
-   }
+.social-networks li {
+  margin: 0 10px;
+}
 
-   .social-networks i{
-    font-size:160% ;
+.social-networks i{
+    font-size:200% ;
     margin: 1%;
     padding:5%;
     color: firebrick;
