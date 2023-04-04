@@ -177,6 +177,8 @@ h2 {
     }
     #album-image {
         padding: 10px;
+        width: 400px;
+        height: 400px;
       }
   }
 
@@ -205,6 +207,46 @@ h2 {
   .discog-img-container img {
     width: 100%;
     height: auto;
+  }
+}
+
+/*gear styling*/
+
+.gear-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#pedal-boards {
+  flex: 1 1 100%; 
+  max-width: 100%; 
+  height: auto; 
+}
+
+.pedal-lists {
+  flex: 1 1 100%; 
+  max-width: 100%; 
+}
+
+.pedal-lists p {
+  margin-top: 10px; /* add margin between list and paragraph */
+  text-align: center;
+}
+
+
+@media (min-width: 768px) {
+  .gear-container {
+    flex-wrap: nowrap; 
+  }
+
+  #pedal-boards {
+    flex: 1 1 auto; 
+    max-width: 60%; 
+  }
+
+  .pedal-lists {
+    flex: 1 1 auto; 
+    max-width: 50%;
   }
 }
 /* footer */
