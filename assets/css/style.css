@@ -91,6 +91,58 @@ h2 {
       font-size: 85%;
     }
   }
+/*album styling*/
+
+h2 {
+    text-align: center;
+  }
+
+.album-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  #album-image {
+    width: 500px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .text-container {
+    padding-right: 20px;
+  }
+
+  .text-container p:nth-of-type(2) {
+    padding-right: 20px;
+  }
+
+  .album-container p:first-child {
+    text-align: center;
+  }
+
+  ol {
+    list-style-position: inside;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .album-container {
+      text-align: center;
+    }
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+    }
+    #album-image {
+        padding: 10px;
+      }
+  }
 
 /* footer */
 
