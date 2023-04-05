@@ -1,5 +1,7 @@
 # Frusciante Facts V1
 
+(For details on the updated site, please scroll down to heading "Frusciante Facts v2")
+
 Frusciante facts is a page made to create a historical database for American musician John Frusciante, covering facts about his career, discography and musical equipment.
 Users of this site will able to discover facts about his life, explore his discography and find out what musical gear (guitars, synthesizers etc) has been used on famous tracks and performances. This last section will allow the user to recreate the sounds of songs/performances that they like. I thought it also has potential for affiliate links as pages of gear or music can have direct links on them to find that specific piece of gear or song/album.
 
@@ -79,3 +81,26 @@ Users of this site will able to discover facts about his life, explore his disco
 The following is an update to my initial markdown, chronicling how the site has been developed since it was first deployed. The most major change is that the site is now fully responsive, which I will discuss, amongst other improvements
 
 ![responsive](https://github.com/ArunHTV/portfolio-one/blob/main/markdown-images/responsivescreenshot.png?raw=true)
+
+## Navigation
+
+- The navigation bar is largely the same in principle, it has been created using a list and each list item is given an anchor tag. However, it is now fully responsive. This is achieve by using a flex display, aligning the navigation to the center of the page and then adding a media query that decreases the font size when appearing on a small screen
+- The title of the page (which itself directs the user to the home page) has been made responsive using a the same method, albeit without the flex display, as I just need to display one block of text as opposed to the three different sections
+
+![NavUpdate](https://github.com/ArunHTV/portfolio-one/blob/main/markdown-images/navbarupdate.png?raw=true)
+
+
+## Homepage
+
+- The homepage is now fully responsive, using a flex box and using flex-direction to have the content display as a vertical column. A media query has then been used so the font-size decreases for smaller screens
+- The video embedded on the page is now also fully responsive. I have applied a media query so that the pixel size of the video is smaller depending on the size of the screen
+
+![HomeUpdate](https://github.com/ArunHTV/portfolio-one/blob/main/markdown-images/homepageupdate.png?raw=true)
+
+## About 
+
+- The image used on this page has been changed as an aesthetic choice. 
+- The container method has been used to center the content. The text has been given it#s own class and used the flext method so that the text shrinks with the screen
+- A media query has then been applied to shrink the image and text for smaller screens with slight padding so that neither the image or text are cropped
+
+![AboutUpdate](https://github.com/ArunHTV/portfolio-one/blob/main/markdown-images/aboutupdate.png?raw=true)
