@@ -104,3 +104,23 @@ The following is an update to my initial markdown, chronicling how the site has 
 - A media query has then been applied to shrink the image and text for smaller screens with slight padding so that neither the image or text are cropped
 
 ![AboutUpdate](https://github.com/ArunHTV/portfolio-one/blob/main/markdown-images/aboutupdate.png?raw=true)
+
+## Discography
+
+- The discogaphy page is now responsive. The images have been placed in a container and laid out in a grid so that the images appear in rows of three.
+- A media query has been applied for smaller screens that collapses the images so that they appear in a column, as a grid view on a mobile screen would make the artwork too small to view
+
+![DiscogUpdate](https://github.com/ArunHTV/portfolio-one/blob/main/markdown-images/discographyupdate.png?raw=true)
+
+## Album Pages
+
+- Album pages now share CSS as opposed to the initial build which had individual styling for each page. This was too time consuming and also destroyed the flow a bit, hence switching to just the one CSS
+- To create the format for the page (image next to the lists), I have used flex direction and column for big screens and have applied a media query so that the content collapses to one vertical column for mobile screens
+
+![AlbumUpdate](https://github.com/ArunHTV/portfolio-one/blob/main/markdown-images/albumupdate.png?raw=true)
+
+## Gear
+
+-  The method used in the previous "Album Pages" section has been used for the album page, including the ordered list styling, so that the image and list of pedals vary sizes on the screen by using a media query
+
+![GearUpdate](https://github.com/ArunHTV/portfolio-one/blob/main/markdown-images/gearupdate.png?raw=true)
