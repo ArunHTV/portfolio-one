@@ -124,3 +124,28 @@ The following is an update to my initial markdown, chronicling how the site has 
 -  The method used in the previous "Album Pages" section has been used for the album page, including the ordered list styling, so that the image and list of pedals vary sizes on the screen by using a media query
 
 ![GearUpdate](https://github.com/ArunHTV/portfolio-one/blob/main/markdown-images/gearupdate.png?raw=true)
+
+## Bugs 
+
+- All bugs from previous build (the issues making each page responsive) have been fixed
+
+## Testing
+
+- No errors found in the HTML pages using Nu HTML Checker
+- No errors found in CSS page using W3C CSS Validation Service
+- Phone test using own mobile (Samsung Galaxy A52)
+- Bytes' "Am I Responsive?" site used to test how responsive site is on various screen sizes (a screenshot of this can be found under the "Frusciante Facts V2" main heading)
+
+## Deployment
+
+- Deployed from repository https://github.com/ArunHTV/portfolio-one by going to the repository clicking settings, finding the pages tab and then hit Deploy from branch and selecting my root folder to build the site
+- The deployed site can be found at https://arunhtv.github.io/portfolio-one/index.html
+
+# Credits
+
+- All album art found on  https://redhotchilipeppers.com
+- Love Running Site used as reference for navigation bar and social media links
+- Lessons found on codeinstitute.net used for help with setting out content
+- All other references have been included in the pages they helped create (e.g the pedal board)
+- Tutorial used to help better understand flex boxes https://www.youtube.com/watch?v=phWxA89Dy94
+
